@@ -14,8 +14,7 @@ class Solution {
         int x = 0;
         for (int i = 0; i<operations.length; i++)
         {
-            String op = operations[i];
-            if(op.equals("++X") || op.equals("X++"))
+            if(operations[i].equals("++X") || operations[i].equals("X++"))
             {
                 x++;
             }
